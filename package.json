@@ -4,7 +4,7 @@
   "description": "Frontend Resources project",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss ./src/tailwind.css -o ./public/build/main.css --watch"
+    "dev": "postcss ./src/styles/tailwind.css -o ./public/build/main.css --watch"
   },
   "keywords": [],
   "author": "",
