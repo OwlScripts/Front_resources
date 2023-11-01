@@ -26,3 +26,17 @@ mainBox.innerHTML += Comments;
 mainBox.innerHTML += ContactUs;
 mainBox.innerHTML += Blogs;
 mainBox.innerHTML += Footer;
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    speed: 2000,
+    slidesPerView: 3,
+    freeMode: true,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+    },
+  });
+  
