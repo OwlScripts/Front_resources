@@ -5,6 +5,9 @@ module.exports = {
       extend: {
         colors:{
           'blue-hover-dark' : '#1E2763'
+        },
+        screens:{
+          'hm':'980px',
         }
       },
     },
