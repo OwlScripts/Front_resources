@@ -38,5 +38,22 @@ const swiper = new Swiper('.swiper', {
         delay: 0,
         disableOnInteraction: false,
     },
+    breakpoints: {
+        250: {
+            slidesPerView: 2,
+        },
+        350: {
+            slidesPerView: 3,
+        },
+        500: {
+            slidesPerView: 3,
+        },
+        768: {
+            slidesPerView:4,
+        },
+        1024: {
+            slidesPerView:6,
+        }
+    }
   });
   

@@ -1013,17 +1013,29 @@ html {
   --togglehandleborder: 0 0 0 3px hsl(var(--bc)) inset,
       var(--handleoffsetcalculator) 0 0 3px hsl(var(--bc)) inset;
 }
+.rounded-box {
+  border-radius: var(--rounded-box, 1rem);
+}
 .absolute {
   position: absolute;
 }
 .relative {
   position: relative;
 }
+.sticky {
+  position: sticky;
+}
 .left-0 {
   left: 0px;
 }
+.right-0 {
+  right: 0px;
+}
 .top-0 {
   top: 0px;
+}
+.top-12 {
+  top: 3rem;
 }
 .-z-10 {
   z-index: -10;
@@ -1031,8 +1043,11 @@ html {
 .mr-2 {
   margin-right: 0.5rem;
 }
-.mt-16 {
-  margin-top: 4rem;
+.mt-20 {
+  margin-top: 5rem;
+}
+.mt-28 {
+  margin-top: 7rem;
 }
 .mt-6 {
   margin-top: 1.5rem;
@@ -1048,6 +1063,9 @@ html {
 }
 .min-h-full {
   min-height: 100%;
+}
+.w-56 {
+  width: 14rem;
 }
 .w-7 {
   width: 1.75rem;
@@ -1108,6 +1126,10 @@ html {
   --tw-border-opacity: 1;
   border-color: rgb(17 24 39 / var(--tw-border-opacity));
 }
+.bg-base-200 {
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--b2) / var(--tw-bg-opacity));
+}
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(96 165 250 / var(--tw-bg-opacity));
@@ -1149,9 +1171,12 @@ html {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.font-medium {
+  font-weight: 500;
 }
 .font-semibold {
   font-weight: 600;
@@ -1176,4 +1201,44 @@ html {
 .swiper-slide{
     display: flex !important;
     justify-content: center !important;
+}
+#header_aside_ul li a:active , #header_aside_ul summary:active{
+    background-color: rgb(96 165 250) !important;
+}
+@media (min-width: 640px) {
+
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .md\:w-\[700px\] {
+    width: 700px;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 980px) {
+
+  .hm\:hidden {
+    display: none;
+  }
+
+  .hm\:gap-0 {
+    gap: 0px;
+  }
 }

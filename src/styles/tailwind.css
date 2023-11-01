@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 .swiper-slide{
-    display: flex;
-    justify-content: center;
+    display: flex !important;
+    justify-content: center !important;
+}
+#header_aside_ul li a:active , #header_aside_ul summary:active{
+    background-color: rgb(96 165 250) !important;
 }
