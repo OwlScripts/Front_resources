@@ -3,19 +3,18 @@ const Footer = `
         class="grid relative  grid-cols-1 md:grid-cols-2  xl:grid-cols-6 px-12  xl:px-24 xl:gap-6 justify-items-center py-8 mt-16   ">
 
         <div class="social col-span-1 md:col-span-2  xl:col-span-2 flex  justify-start items-start flex-col ">
-            <a class=" logo flex items-center gap-4">
-                <img class="w-12 h-12" src="./assets/images/Footer/blog-01.jpg" alt="logo">
+            <a href="#"  class=" logo group  flex items-center gap-4">
+                <img class="w-12 h-12 rounded-lg group-hover:animate-bounce   duration-300" src="./assets/Icons/OwlLogo.png" alt="logo">
                 <strong class="text-2xl ">OwlScript</strong>
             </a>
-            <p class="w-[80%] text-justify mt-6 md:text-xl xl:text-xl ">Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit. Nam vitae quam nec ante fringilla vel at erat
-                convallis elit.</p>
+            <p class="w-[80%] text-justify mt-6 md:text-xl xl:text-xl ">Unleash Your Creativity, Craft Exceptional Designs, and Master the Art of Frontend Development with Our Resources.</p>
             <div
                 class="social-icons flex justify-between w-full   md:w-[80%]   xl:w-[50%] items-center  gap-4 md:mt-12  mt-8 xl:mt-[6rem] ">
-                <a class="w-4 h-4" href="#"><i class="w-4 h-4 fa-xl  fa-brands fa-github"></i></a>
-                <a class="w-4 h-4" href="#"><i class="w-4 h-4 fa-xl  fa-brands fa-linkedin-in"></i></a>
-                <a class="w-4 h-4" href="#"><i class="w-4 h-4 fa-xl  fa-brands fa-youtube"></i></a>
-                <a class="w-4 h-4" href="#"><i class="w-4 h-4 fa-xl  fa-brands fa-telegram"></i></a>
+                <a class="w-4 h-4" href="https://github.com/OwlScripts" target="_blank"><i
+                        class="w-4 h-4 fa-xl hover:text-purple-700 transition duration-100  fa-brands fa-github"></i></a>
+                <a class="w-4 h-4" href="#"><i class="w-4 h-4 hover:text-sky-700    transition duration-100  fa-xl  fa-brands fa-linkedin-in"></i></a>
+                <a class="w-4 h-4" href="#"><i class="w-4 h-4 hover:text-rose-600   transition duration-100  fa-xl  fa-brands fa-youtube"></i></a>
+                <a class="w-4 h-4" href="#"><i class="w-4 h-4 hover:text-sky-500    transition duration-100  fa-xl  fa-brands fa-telegram"></i></a>
             </div>
         </div>
 
@@ -23,21 +22,21 @@ const Footer = `
         <ul
             class="Links col-span-1   xl:col-span-1 flex order-3 w-full  flex-col justify-start items-center py-8 xl:pt-0  xl:items-start mt-12 xl:mt-0    ">
             <li class="text-2xl font-bold ">Quick Links</li>
-            <li class="mt-8 "><a href="#">What is ico ?</a></li>
-            <li class="mt-8 "><a href="#">Roadmap</a></li>
-            <li class="mt-8 "><a href="#">Whitepaper</a></li>
-            <li class="mt-8 "><a href="#">Social Network</a></li>
-            <li class="mt-8 "><a href="#">Join Us Now</a></li>
+            <li class="mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100"><a href="#">What is ico ?</a></li>
+            <li class="mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100"><a href="#">Roadmap</a></li>
+            <li class="mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100"><a href="#">Whitepaper</a></li>
+            <li class="mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100"><a href="#">Social Network</a></li>
+            <li class="mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100"><a href="#">Join Us Now</a></li>
         </ul>
 
         <ul
             class="Supports col-span-1  xl:col-span-1 order-2 w-full  flex flex-col justify-start items-center pt-8 xl:pt-0  xl:items-start mt-12 xl:mt-0 ">
             <li class="text-2xl font-bold ">Supports</li>
-            <li class="mt-8 "><a href="#">Setting & Privacy</a></li>
-            <li class="mt-8 "><a href="#">Help & Support</a></li>
-            <li class="mt-8 "><a href="#">Terms & Conditions</a></li>
-            <li class="mt-8 "><a href="#">24/7 Supports</a></li>
-            <li class="mt-8 "><a href="#">On Point FAQ</a></li>
+            <li class=" mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100 "><a href="#">Setting & Privacy</a></li>
+            <li class=" mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100 "><a href="#">Help & Support</a></li>
+            <li class=" mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100 "><a href="#">Terms & Conditions</a></li>
+            <li class=" mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100 "><a href="#">24/7 Supports</a></li>
+            <li class=" mt-6 hover:bg-purple-100 hover:text-indigo-800 py-1  px-4 rounded-md duration-100 "><a href="#">On Point FAQ</a></li>
         </ul>
 
         <div
@@ -45,33 +44,33 @@ const Footer = `
             <h6 class="text-2xl  xl:text-2xl   font-bold col-span-2  md:col-span-2 mb-8 xl:mb-0 text-center xl:text-start">
                 News & Post</h6>
             <!-- item 1 -->
-            <div
-                class="post-item md:col-span-1  xl:col-span-2 w-full  flex flex-col xl:flex-row     gap-4 justify-start items-center  ">
-                <img src="./assets/images/Footer/blog-01.jpg" alt="post-img">
+            <a href="#"
+                class="post-item group  md:col-span-1  xl:col-span-2 w-full  flex flex-col xl:flex-row     gap-4 justify-start items-center  ">
+                <img class=" rounded-lg group-hover:rotate-180 duration-300 ease-out delay-75" src="./assets/images/Footer/p4.png" alt="post-img">
                 <div class="post-details flex flex-col justify-start items-center">
-                    <p>Roll Out New Features Without Hurting Loyal Users</p>
+                    <p class="border-2 border-transparent  group-hover:border-2 group-hover:border-l-sky-700 pl-1">React Canaries: Enabling Incremental Feature Rollout Outside Meta</p>
                     <div class="post-date flex justify-start items-center w-full gap-2 mt-4 xl:mt-0 ">
                         <i class="fa-solid fa-calendar-days"></i>
-                        <span class="pr-4">Dec 18, 2025</span>
+                        <span class="pr-4">Sep  18, 2023</span>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- item 2 -->
-            <div
-                class="post-item md:col-span-1  col-span-2    flex flex-col xl:flex-row   gap-4 justify-start items-center mt-8 md:mt-0   ">
-                <img src="./assets/images/Footer/blog-02.jpg" alt="post-img">
-                <div class="post-details flex flex-col justify-start items-center">
-                    <p>Roll Out New Features Without Hurting Loyal Users</p>
-                    <div class="post-date flex justify-start items-center w-full gap-2 mt-4 xl:mt-0 ">
+            <a href="#"
+                class="post-item md:col-span-1 group  col-span-2    flex flex-col xl:flex-row   gap-4 justify-start items-center mt-8 md:mt-0   ">
+                <img class=" rounded-lg group-hover:rotate-180 duration-300 ease-out delay-75 "  src="./assets/images/Footer/p9.png" alt="post-img">
+                <div class="post-details flex flex-col justify-start items-center w-full">
+                    <p class="border-2 border-transparent  group-hover:border-2 group-hover:border-l-sky-700 pl-1 w-full">How to Think About Security in Next.js</p>
+                    <div class="post-date mt-2 flex justify-start items-center w-full gap-2  xl:mt-0 w-full ">
                         <i class="fa-solid fa-calendar-days"></i>
-                        <span class="pr-4">Dec 18, 2025</span>
+                        <span class="pr-4 ">Dec 18, 2023</span>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
 
-        <!-- right shape -->
+        <!-- left shape -->
         <div class="absolute left-0 -z-10">
             <svg fill="none" height="392" viewBox="0 0 158 392" width="158" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -83,128 +82,128 @@ const Footer = `
                     <stop offset="0" stop-color="#376df9" stop-opacity="0" />
                     <stop offset=".98551" stop-color="#376df9" stop-opacity=".24" />
                 </linearGradient>
-                <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="-84.2171" x2="-180.626" xlink:href="#b" y1="300.875"
-                    y2="184.419" />
-                <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="-84.0027" x2="-179.414" xlink:href="#b" y1="302.508"
-                    y2="186.182" />
-                <linearGradient id="e" gradientUnits="userSpaceOnUse" x1="-83.7414" x2="-178.133" xlink:href="#b" y1="304.153"
-                    y2="187.991" />
-                <linearGradient id="f" gradientUnits="userSpaceOnUse" x1="-83.4418" x2="-176.814" xlink:href="#b" y1="305.821"
-                    y2="189.845" />
-                <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="-83.0983" x2="-175.469" xlink:href="#b" y1="307.527"
-                    y2="191.762" />
-                <linearGradient id="h" gradientUnits="userSpaceOnUse" x1="-82.7197" x2="-174.114" xlink:href="#b" y1="309.255"
-                    y2="193.72" />
-                <linearGradient id="i" gradientUnits="userSpaceOnUse" x1="-82.2954" x2="-172.753" xlink:href="#b" y1="311.014"
-                    y2="195.723" />
-                <linearGradient id="j" gradientUnits="userSpaceOnUse" x1="-81.8356" x2="-171.394" xlink:href="#b" y1="312.802"
-                    y2="197.771" />
-                <linearGradient id="k" gradientUnits="userSpaceOnUse" x1="-81.3381" x2="-170.056" xlink:href="#b" y1="314.625"
-                    y2="199.86" />
-                <linearGradient id="l" gradientUnits="userSpaceOnUse" x1="-80.7989" x2="-168.764" xlink:href="#b" y1="316.482"
-                    y2="201.984" />
-                <linearGradient id="m" gradientUnits="userSpaceOnUse" x1="-80.2218" x2="-167.566" xlink:href="#b" y1="318.383"
-                    y2="204.135" />
-                <linearGradient id="n" gradientUnits="userSpaceOnUse" x1="-79.6473" x2="-166.525" xlink:href="#b" y1="320.247"
-                    y2="206.241" />
-                <linearGradient id="o" gradientUnits="userSpaceOnUse" x1="-79.0379" x2="-165.627" xlink:href="#b" y1="322.126"
-                    y2="208.337" />
-                <linearGradient id="p" gradientUnits="userSpaceOnUse" x1="-78.4191" x2="-165.304" xlink:href="#b" y1="324.159"
-                    y2="210.444" />
-                <linearGradient id="q" gradientUnits="userSpaceOnUse" x1="-77.7667" x2="-165.129" xlink:href="#b" y1="326.217"
-                    y2="212.552" />
-                <linearGradient id="r" gradientUnits="userSpaceOnUse" x1="-77.0946" x2="-164.909" xlink:href="#b" y1="328.219"
-                    y2="214.638" />
-                <linearGradient id="s" gradientUnits="userSpaceOnUse" x1="-76.3994" x2="-164.652" xlink:href="#b" y1="330.188"
-                    y2="216.72" />
-                <linearGradient id="t" gradientUnits="userSpaceOnUse" x1="-75.7218" x2="-164.385" xlink:href="#b" y1="332.116"
-                    y2="218.757" />
+                <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="-84.2171" x2="-180.626" xlink:href="#b"
+                    y1="300.875" y2="184.419" />
+                <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="-84.0027" x2="-179.414" xlink:href="#b"
+                    y1="302.508" y2="186.182" />
+                <linearGradient id="e" gradientUnits="userSpaceOnUse" x1="-83.7414" x2="-178.133" xlink:href="#b"
+                    y1="304.153" y2="187.991" />
+                <linearGradient id="f" gradientUnits="userSpaceOnUse" x1="-83.4418" x2="-176.814" xlink:href="#b"
+                    y1="305.821" y2="189.845" />
+                <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="-83.0983" x2="-175.469" xlink:href="#b"
+                    y1="307.527" y2="191.762" />
+                <linearGradient id="h" gradientUnits="userSpaceOnUse" x1="-82.7197" x2="-174.114" xlink:href="#b"
+                    y1="309.255" y2="193.72" />
+                <linearGradient id="i" gradientUnits="userSpaceOnUse" x1="-82.2954" x2="-172.753" xlink:href="#b"
+                    y1="311.014" y2="195.723" />
+                <linearGradient id="j" gradientUnits="userSpaceOnUse" x1="-81.8356" x2="-171.394" xlink:href="#b"
+                    y1="312.802" y2="197.771" />
+                <linearGradient id="k" gradientUnits="userSpaceOnUse" x1="-81.3381" x2="-170.056" xlink:href="#b"
+                    y1="314.625" y2="199.86" />
+                <linearGradient id="l" gradientUnits="userSpaceOnUse" x1="-80.7989" x2="-168.764" xlink:href="#b"
+                    y1="316.482" y2="201.984" />
+                <linearGradient id="m" gradientUnits="userSpaceOnUse" x1="-80.2218" x2="-167.566" xlink:href="#b"
+                    y1="318.383" y2="204.135" />
+                <linearGradient id="n" gradientUnits="userSpaceOnUse" x1="-79.6473" x2="-166.525" xlink:href="#b"
+                    y1="320.247" y2="206.241" />
+                <linearGradient id="o" gradientUnits="userSpaceOnUse" x1="-79.0379" x2="-165.627" xlink:href="#b"
+                    y1="322.126" y2="208.337" />
+                <linearGradient id="p" gradientUnits="userSpaceOnUse" x1="-78.4191" x2="-165.304" xlink:href="#b"
+                    y1="324.159" y2="210.444" />
+                <linearGradient id="q" gradientUnits="userSpaceOnUse" x1="-77.7667" x2="-165.129" xlink:href="#b"
+                    y1="326.217" y2="212.552" />
+                <linearGradient id="r" gradientUnits="userSpaceOnUse" x1="-77.0946" x2="-164.909" xlink:href="#b"
+                    y1="328.219" y2="214.638" />
+                <linearGradient id="s" gradientUnits="userSpaceOnUse" x1="-76.3994" x2="-164.652" xlink:href="#b"
+                    y1="330.188" y2="216.72" />
+                <linearGradient id="t" gradientUnits="userSpaceOnUse" x1="-75.7218" x2="-164.385" xlink:href="#b"
+                    y1="332.116" y2="218.757" />
                 <linearGradient id="u" gradientUnits="userSpaceOnUse" x1="-74.9608" x2="-164.027" xlink:href="#b" y1="334"
                     y2="220.831" />
-                <linearGradient id="v" gradientUnits="userSpaceOnUse" x1="-74.5184" x2="-163.907" xlink:href="#b" y1="335.852"
-                    y2="222.634" />
-                <linearGradient id="w" gradientUnits="userSpaceOnUse" x1="-74.4129" x2="-164.039" xlink:href="#b" y1="337.67"
-                    y2="224.141" />
-                <linearGradient id="x" gradientUnits="userSpaceOnUse" x1="-74.3007" x2="-164.149" xlink:href="#b" y1="339.455"
-                    y2="225.63" />
-                <linearGradient id="y" gradientUnits="userSpaceOnUse" x1="-74.172" x2="-164.231" xlink:href="#b" y1="341.217"
-                    y2="227.108" />
-                <linearGradient id="z" gradientUnits="userSpaceOnUse" x1="-74.0346" x2="-164.287" xlink:href="#b" y1="342.951"
-                    y2="228.573" />
-                <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="-73.8682" x2="-164.304" xlink:href="#b" y1="344.663"
-                    y2="230.025" />
+                <linearGradient id="v" gradientUnits="userSpaceOnUse" x1="-74.5184" x2="-163.907" xlink:href="#b"
+                    y1="335.852" y2="222.634" />
+                <linearGradient id="w" gradientUnits="userSpaceOnUse" x1="-74.4129" x2="-164.039" xlink:href="#b"
+                    y1="337.67" y2="224.141" />
+                <linearGradient id="x" gradientUnits="userSpaceOnUse" x1="-74.3007" x2="-164.149" xlink:href="#b"
+                    y1="339.455" y2="225.63" />
+                <linearGradient id="y" gradientUnits="userSpaceOnUse" x1="-74.172" x2="-164.231" xlink:href="#b"
+                    y1="341.217" y2="227.108" />
+                <linearGradient id="z" gradientUnits="userSpaceOnUse" x1="-74.0346" x2="-164.287" xlink:href="#b"
+                    y1="342.951" y2="228.573" />
+                <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="-73.8682" x2="-164.304" xlink:href="#b"
+                    y1="344.663" y2="230.025" />
                 <linearGradient id="B" gradientUnits="userSpaceOnUse" x1="-73.68" x2="-164.286" xlink:href="#b" y1="346.354"
                     y2="231.469" />
-                <linearGradient id="C" gradientUnits="userSpaceOnUse" x1="-73.4697" x2="-164.24" xlink:href="#b" y1="348.036"
-                    y2="232.909" />
-                <linearGradient id="D" gradientUnits="userSpaceOnUse" x1="-73.2412" x2="-164.16" xlink:href="#b" y1="349.687"
-                    y2="234.331" />
-                <linearGradient id="E" gradientUnits="userSpaceOnUse" x1="-72.9866" x2="-164.048" xlink:href="#b" y1="351.331"
-                    y2="235.755" />
-                <linearGradient id="F" gradientUnits="userSpaceOnUse" x1="-72.7138" x2="-163.908" xlink:href="#b" y1="352.956"
-                    y2="237.169" />
-                <linearGradient id="G" gradientUnits="userSpaceOnUse" x1="-72.5423" x2="-163.865" xlink:href="#b" y1="354.863"
-                    y2="238.84" />
+                <linearGradient id="C" gradientUnits="userSpaceOnUse" x1="-73.4697" x2="-164.24" xlink:href="#b"
+                    y1="348.036" y2="232.909" />
+                <linearGradient id="D" gradientUnits="userSpaceOnUse" x1="-73.2412" x2="-164.16" xlink:href="#b"
+                    y1="349.687" y2="234.331" />
+                <linearGradient id="E" gradientUnits="userSpaceOnUse" x1="-72.9866" x2="-164.048" xlink:href="#b"
+                    y1="351.331" y2="235.755" />
+                <linearGradient id="F" gradientUnits="userSpaceOnUse" x1="-72.7138" x2="-163.908" xlink:href="#b"
+                    y1="352.956" y2="237.169" />
+                <linearGradient id="G" gradientUnits="userSpaceOnUse" x1="-72.5423" x2="-163.865" xlink:href="#b"
+                    y1="354.863" y2="238.84" />
                 <linearGradient id="H" gradientUnits="userSpaceOnUse" x1="-72.3557" x2="-163.79" xlink:href="#b" y1="356.74"
                     y2="240.49" />
-                <linearGradient id="I" gradientUnits="userSpaceOnUse" x1="-72.1437" x2="-163.692" xlink:href="#b" y1="358.615"
-                    y2="242.15" />
+                <linearGradient id="I" gradientUnits="userSpaceOnUse" x1="-72.1437" x2="-163.692" xlink:href="#b"
+                    y1="358.615" y2="242.15" />
                 <linearGradient id="J" gradientUnits="userSpaceOnUse" x1="-71.906" x2="-163.567" xlink:href="#b" y1="360.49"
                     y2="243.82" />
-                <linearGradient id="K" gradientUnits="userSpaceOnUse" x1="-71.4085" x2="-163.179" xlink:href="#b" y1="362.343"
-                    y2="245.508" />
-                <linearGradient id="L" gradientUnits="userSpaceOnUse" x1="-70.5961" x2="-162.46" xlink:href="#b" y1="364.152"
-                    y2="247.194" />
-                <linearGradient id="M" gradientUnits="userSpaceOnUse" x1="-69.7126" x2="-161.682" xlink:href="#b" y1="365.982"
-                    y2="248.901" />
-                <linearGradient id="N" gradientUnits="userSpaceOnUse" x1="-68.754" x2="-160.845" xlink:href="#b" y1="367.856"
-                    y2="250.655" />
-                <linearGradient id="O" gradientUnits="userSpaceOnUse" x1="-67.4817" x2="-159.685" xlink:href="#b" y1="369.775"
-                    y2="252.315" />
-                <linearGradient id="P" gradientUnits="userSpaceOnUse" x1="-64.7094" x2="-156.879" xlink:href="#b" y1="371.665"
-                    y2="253.435" />
-                <linearGradient id="Q" gradientUnits="userSpaceOnUse" x1="-61.8297" x2="-153.968" xlink:href="#b" y1="373.588"
-                    y2="254.543" />
-                <linearGradient id="R" gradientUnits="userSpaceOnUse" x1="-58.9059" x2="-151.021" xlink:href="#b" y1="375.572"
-                    y2="255.635" />
-                <linearGradient id="S" gradientUnits="userSpaceOnUse" x1="-55.9593" x2="-148.054" xlink:href="#b" y1="377.61"
-                    y2="256.705" />
-                <linearGradient id="T" gradientUnits="userSpaceOnUse" x1="-52.9871" x2="-144.925" xlink:href="#b" y1="379.465"
-                    y2="257.579" />
-                <linearGradient id="U" gradientUnits="userSpaceOnUse" x1="-49.9999" x2="-141.928" xlink:href="#b" y1="381.631"
-                    y2="258.621" />
-                <linearGradient id="V" gradientUnits="userSpaceOnUse" x1="-46.9957" x2="-138.932" xlink:href="#b" y1="383.89"
-                    y2="259.679" />
-                <linearGradient id="W" gradientUnits="userSpaceOnUse" x1="-43.9649" x2="-135.927" xlink:href="#b" y1="386.228"
-                    y2="260.754" />
-                <linearGradient id="X" gradientUnits="userSpaceOnUse" x1="-40.8752" x2="-132.915" xlink:href="#b" y1="388.671"
-                    y2="261.872" />
-                <linearGradient id="Y" gradientUnits="userSpaceOnUse" x1="-37.7391" x2="-129.87" xlink:href="#b" y1="391.226"
-                    y2="263.052" />
-                <linearGradient id="Z" gradientUnits="userSpaceOnUse" x1="-34.5654" x2="-126.808" xlink:href="#b" y1="393.868"
-                    y2="264.27" />
-                <linearGradient id="aa" gradientUnits="userSpaceOnUse" x1="-31.406" x2="-123.795" xlink:href="#b" y1="396.652"
-                    y2="265.555" />
-                <linearGradient id="ab" gradientUnits="userSpaceOnUse" x1="-28.1974" x2="-120.77" xlink:href="#b" y1="399.551"
-                    y2="266.919" />
-                <linearGradient id="ac" gradientUnits="userSpaceOnUse" x1="-24.9519" x2="-117.744" xlink:href="#b" y1="402.577"
-                    y2="268.36" />
-                <linearGradient id="ad" gradientUnits="userSpaceOnUse" x1="-21.6961" x2="-114.737" xlink:href="#b" y1="405.735"
-                    y2="269.857" />
-                <linearGradient id="ae" gradientUnits="userSpaceOnUse" x1="-18.4255" x2="-111.747" xlink:href="#b" y1="409.022"
-                    y2="271.425" />
-                <linearGradient id="af" gradientUnits="userSpaceOnUse" x1="-15.1185" x2="-108.79" xlink:href="#b" y1="412.465"
-                    y2="273.091" />
-                <linearGradient id="ag" gradientUnits="userSpaceOnUse" x1="-11.7547" x2="-105.808" xlink:href="#b" y1="416.032"
-                    y2="274.855" />
-                <linearGradient id="ah" gradientUnits="userSpaceOnUse" x1="-8.32001" x2="-102.778" xlink:href="#b" y1="419.722"
-                    y2="276.722" />
-                <linearGradient id="ai" gradientUnits="userSpaceOnUse" x1="-4.72403" x2="-99.5894" xlink:href="#b" y1="423.547"
-                    y2="278.668" />
-                <linearGradient id="aj" gradientUnits="userSpaceOnUse" x1="-1.12516" x2="-96.4323" xlink:href="#b" y1="427.489"
-                    y2="280.753" />
-                <linearGradient id="ak" gradientUnits="userSpaceOnUse" x1="2.44057" x2="-93.3383" xlink:href="#b" y1="431.559"
-                    y2="282.965" />
+                <linearGradient id="K" gradientUnits="userSpaceOnUse" x1="-71.4085" x2="-163.179" xlink:href="#b"
+                    y1="362.343" y2="245.508" />
+                <linearGradient id="L" gradientUnits="userSpaceOnUse" x1="-70.5961" x2="-162.46" xlink:href="#b"
+                    y1="364.152" y2="247.194" />
+                <linearGradient id="M" gradientUnits="userSpaceOnUse" x1="-69.7126" x2="-161.682" xlink:href="#b"
+                    y1="365.982" y2="248.901" />
+                <linearGradient id="N" gradientUnits="userSpaceOnUse" x1="-68.754" x2="-160.845" xlink:href="#b"
+                    y1="367.856" y2="250.655" />
+                <linearGradient id="O" gradientUnits="userSpaceOnUse" x1="-67.4817" x2="-159.685" xlink:href="#b"
+                    y1="369.775" y2="252.315" />
+                <linearGradient id="P" gradientUnits="userSpaceOnUse" x1="-64.7094" x2="-156.879" xlink:href="#b"
+                    y1="371.665" y2="253.435" />
+                <linearGradient id="Q" gradientUnits="userSpaceOnUse" x1="-61.8297" x2="-153.968" xlink:href="#b"
+                    y1="373.588" y2="254.543" />
+                <linearGradient id="R" gradientUnits="userSpaceOnUse" x1="-58.9059" x2="-151.021" xlink:href="#b"
+                    y1="375.572" y2="255.635" />
+                <linearGradient id="S" gradientUnits="userSpaceOnUse" x1="-55.9593" x2="-148.054" xlink:href="#b"
+                    y1="377.61" y2="256.705" />
+                <linearGradient id="T" gradientUnits="userSpaceOnUse" x1="-52.9871" x2="-144.925" xlink:href="#b"
+                    y1="379.465" y2="257.579" />
+                <linearGradient id="U" gradientUnits="userSpaceOnUse" x1="-49.9999" x2="-141.928" xlink:href="#b"
+                    y1="381.631" y2="258.621" />
+                <linearGradient id="V" gradientUnits="userSpaceOnUse" x1="-46.9957" x2="-138.932" xlink:href="#b"
+                    y1="383.89" y2="259.679" />
+                <linearGradient id="W" gradientUnits="userSpaceOnUse" x1="-43.9649" x2="-135.927" xlink:href="#b"
+                    y1="386.228" y2="260.754" />
+                <linearGradient id="X" gradientUnits="userSpaceOnUse" x1="-40.8752" x2="-132.915" xlink:href="#b"
+                    y1="388.671" y2="261.872" />
+                <linearGradient id="Y" gradientUnits="userSpaceOnUse" x1="-37.7391" x2="-129.87" xlink:href="#b"
+                    y1="391.226" y2="263.052" />
+                <linearGradient id="Z" gradientUnits="userSpaceOnUse" x1="-34.5654" x2="-126.808" xlink:href="#b"
+                    y1="393.868" y2="264.27" />
+                <linearGradient id="aa" gradientUnits="userSpaceOnUse" x1="-31.406" x2="-123.795" xlink:href="#b"
+                    y1="396.652" y2="265.555" />
+                <linearGradient id="ab" gradientUnits="userSpaceOnUse" x1="-28.1974" x2="-120.77" xlink:href="#b"
+                    y1="399.551" y2="266.919" />
+                <linearGradient id="ac" gradientUnits="userSpaceOnUse" x1="-24.9519" x2="-117.744" xlink:href="#b"
+                    y1="402.577" y2="268.36" />
+                <linearGradient id="ad" gradientUnits="userSpaceOnUse" x1="-21.6961" x2="-114.737" xlink:href="#b"
+                    y1="405.735" y2="269.857" />
+                <linearGradient id="ae" gradientUnits="userSpaceOnUse" x1="-18.4255" x2="-111.747" xlink:href="#b"
+                    y1="409.022" y2="271.425" />
+                <linearGradient id="af" gradientUnits="userSpaceOnUse" x1="-15.1185" x2="-108.79" xlink:href="#b"
+                    y1="412.465" y2="273.091" />
+                <linearGradient id="ag" gradientUnits="userSpaceOnUse" x1="-11.7547" x2="-105.808" xlink:href="#b"
+                    y1="416.032" y2="274.855" />
+                <linearGradient id="ah" gradientUnits="userSpaceOnUse" x1="-8.32001" x2="-102.778" xlink:href="#b"
+                    y1="419.722" y2="276.722" />
+                <linearGradient id="ai" gradientUnits="userSpaceOnUse" x1="-4.72403" x2="-99.5894" xlink:href="#b"
+                    y1="423.547" y2="278.668" />
+                <linearGradient id="aj" gradientUnits="userSpaceOnUse" x1="-1.12516" x2="-96.4323" xlink:href="#b"
+                    y1="427.489" y2="280.753" />
+                <linearGradient id="ak" gradientUnits="userSpaceOnUse" x1="2.44057" x2="-93.3383" xlink:href="#b"
+                    y1="431.559" y2="282.965" />
                 <g clip-rule="evenodd" fill-rule="evenodd" opacity=".5" stroke-width="1.5">
                     <path
                         d="m-121.208 247.067c-.66-7.24-3.286-15.339-6.482-23.762-3.275-8.385-6.955-16.987-13.312-21.977-6.34-5.039-16.759-4.835-28.968-1.512-12.078 3.134-26.256 9.848-38.462 16.202-12.13 6.285-21.895 11.607-23.436 10.28-4.617-2.945.187-15.43 24.161-34.489 9.417-7.377 19.455-13.925 30.002-19.57 9.723-5.207 18.839-9.033 26.612-11.854 7.761-2.855 14.771-4.641 17.693-7.156 3.182-2.742 1.407-5.781-1.529-8.178-3.247-2.696-8.729-5.024-15.918-6.888-7.153-1.882-16.042-3.282-25.426-4.563-12.993-1.817-27.684-3.383-40.961-6.142-13.235-2.746-25.251-6.923-31.338-12.942-6.135-5.964-6.821-13.659-3.306-21.6347 5.182-11.9132 18.052-23.8184 31.218-33.9438 7.743-5.9566 20.546-16.0055 37.233-18.672 15.758-2.4432 15.898 3.4464 16.981 6.3649.935 3.1768 3.601 6.7954 10.132 4.8785 5.28-1.5549 9.108-5.6281 11.122-10.3583 2.048-4.7078 2.159-10.2004 6.432-12.7951 3.741-2.279 10.385-2.8531 16.954-4.2215 6.582-1.3954 13.341-3.3395 19.669-6.2771 6.3602-2.8946 12.4189-6.8194 18.8188-10.23228 6.3824-3.37461 13.2337-5.92789 20.0499-6.42228 9.336-.738396 19.1058.07336 30.5007 10.57516 11.3789 10.4603 22.80568 28.2807 31.00059 45.5397 8.33924 17.3802 13.69381 34.1942 17.10751 47.7818 3.5046 13.698 5.0595 25.643 7.1128 32.223 2.6713 8.679 6.4988 15.077 4.2151 19.835-.0104-.019-.4745 3.574-1.7041 9.326-1.2343 5.722-3.5245 14.529-8.0298 24.886-4.4886 10.367-10.14776 20.214-15.90661 28.834-5.78834 8.643-11.52089 16.274-16.51419 22.415-5.0364 6.121-10.2068 10.696-15.4027 13.415-5.1799 2.719-10.6692 3.473-15.5238 1.404-7.1957-3.094-13.8612-4.076-21.2922-4.044-7.4239 0-15.3086 1.255-22.608 3.241-7.3186 1.874-14.022 4.571-19.728 4.212-5.639-.288-10.326-4.572-11.168-13.779z"
@@ -395,8 +394,8 @@ const Footer = `
                 </g>
             </svg>
         </div>
-        <!-- left shape -->
-        <div class="absolute right-0 -z-10">
+        <!-- right shape -->
+        <div class="absolute right-0 bottom-0 -z-10">
             <svg fill="none" height="254" viewBox="0 0 187 254" width="187" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="177.517" x2="247.925" y1="68.1359" y2="152.341">
@@ -507,28 +506,28 @@ const Footer = `
                     y2="94.674" />
                 <linearGradient id="Z" gradientUnits="userSpaceOnUse" x1="140.939" x2="208.577" xlink:href="#b" y1="-1.2471"
                     y2="93.7813" />
-                <linearGradient id="aa" gradientUnits="userSpaceOnUse" x1="138.622" x2="206.366" xlink:href="#b" y1="-3.28836"
-                    y2="92.8387" />
+                <linearGradient id="aa" gradientUnits="userSpaceOnUse" x1="138.622" x2="206.366" xlink:href="#b"
+                    y1="-3.28836" y2="92.8387" />
                 <linearGradient id="ab" gradientUnits="userSpaceOnUse" x1="136.27" x2="204.149" xlink:href="#b" y1="-5.4137"
                     y2="91.8393" />
-                <linearGradient id="ac" gradientUnits="userSpaceOnUse" x1="133.89" x2="201.931" xlink:href="#b" y1="-7.63342"
-                    y2="90.7819" />
-                <linearGradient id="ad" gradientUnits="userSpaceOnUse" x1="131.503" x2="199.725" xlink:href="#b" y1="-9.94868"
-                    y2="89.6843" />
-                <linearGradient id="ae" gradientUnits="userSpaceOnUse" x1="129.104" x2="197.532" xlink:href="#b" y1="-12.3592"
-                    y2="88.535" />
-                <linearGradient id="af" gradientUnits="userSpaceOnUse" x1="126.68" x2="195.365" xlink:href="#b" y1="-14.8834"
-                    y2="87.3136" />
-                <linearGradient id="ag" gradientUnits="userSpaceOnUse" x1="124.213" x2="193.178" xlink:href="#b" y1="-17.4995"
-                    y2="86.0191" />
-                <linearGradient id="ah" gradientUnits="userSpaceOnUse" x1="121.695" x2="190.956" xlink:href="#b" y1="-20.205"
-                    y2="84.6503" />
-                <linearGradient id="ai" gradientUnits="userSpaceOnUse" x1="119.059" x2="188.619" xlink:href="#b" y1="-23.0091"
-                    y2="83.2239" />
-                <linearGradient id="aj" gradientUnits="userSpaceOnUse" x1="116.419" x2="186.304" xlink:href="#b" y1="-25.9001"
-                    y2="81.6953" />
-                <linearGradient id="ak" gradientUnits="userSpaceOnUse" x1="113.804" x2="184.035" xlink:href="#b" y1="-28.8838"
-                    y2="80.0731" />
+                <linearGradient id="ac" gradientUnits="userSpaceOnUse" x1="133.89" x2="201.931" xlink:href="#b"
+                    y1="-7.63342" y2="90.7819" />
+                <linearGradient id="ad" gradientUnits="userSpaceOnUse" x1="131.503" x2="199.725" xlink:href="#b"
+                    y1="-9.94868" y2="89.6843" />
+                <linearGradient id="ae" gradientUnits="userSpaceOnUse" x1="129.104" x2="197.532" xlink:href="#b"
+                    y1="-12.3592" y2="88.535" />
+                <linearGradient id="af" gradientUnits="userSpaceOnUse" x1="126.68" x2="195.365" xlink:href="#b"
+                    y1="-14.8834" y2="87.3136" />
+                <linearGradient id="ag" gradientUnits="userSpaceOnUse" x1="124.213" x2="193.178" xlink:href="#b"
+                    y1="-17.4995" y2="86.0191" />
+                <linearGradient id="ah" gradientUnits="userSpaceOnUse" x1="121.695" x2="190.956" xlink:href="#b"
+                    y1="-20.205" y2="84.6503" />
+                <linearGradient id="ai" gradientUnits="userSpaceOnUse" x1="119.059" x2="188.619" xlink:href="#b"
+                    y1="-23.0091" y2="83.2239" />
+                <linearGradient id="aj" gradientUnits="userSpaceOnUse" x1="116.419" x2="186.304" xlink:href="#b"
+                    y1="-25.9001" y2="81.6953" />
+                <linearGradient id="ak" gradientUnits="userSpaceOnUse" x1="113.804" x2="184.035" xlink:href="#b"
+                    y1="-28.8838" y2="80.0731" />
                 <g clip-rule="evenodd" fill-rule="evenodd" opacity=".5" stroke-width="1.5">
                     <path
                         d="m204.471 106.395c.483 5.309 2.409 11.248 4.753 17.424 2.401 6.148 5.099 12.456 9.761 16.115 4.648 3.695 12.288 3.545 21.241 1.108 8.856-2.298 19.252-7.221 28.202-11.88 8.895-4.608 16.055-8.511 17.184-7.538 3.386 2.16-.136 11.314-17.716 25.29-6.905 5.409-14.265 10.21-21.999 14.349-7.13 3.819-13.814 6.624-19.513 8.693-5.691 2.093-10.831 3.403-12.974 5.247-2.333 2.01-1.031 4.239 1.122 5.996 2.381 1.977 6.4 3.684 11.671 5.051 5.245 1.38 11.763 2.407 18.644 3.346 9.527 1.332 20.3 2.48 30.035 4.503 9.705 2.014 18.515 5.076 22.979 9.49 4.498 4.373 5.001 10.016 2.424 15.864-3.8 8.735-13.237 17.465-22.891 24.889-5.678 4.368-15.066 11.736-27.301 13.692-11.555 1.791-11.658-2.528-12.452-4.668-.685-2.329-2.64-4.982-7.429-3.577-3.872 1.14-6.678 4.127-8.155 7.596-1.502 3.452-1.584 7.479-4.716 9.382-2.744 1.671-7.616 2.092-12.432 3.095-4.826 1.023-9.782 2.449-14.423 4.603-4.663 2.122-9.106 5-13.798 7.503-4.68 2.474-9.704 4.346-14.702 4.709-6.846.541-14.01-.054-22.365-7.754-8.344-7.671-16.722-20.737-22.731-33.393-6.115-12.744-10.041-25.073-12.544-35.036-2.57-10.044-3.71-18.803-5.2159-23.628-1.9588-6.364-4.7653-11.055-3.0907-14.544.0076.014.3478-2.62 1.2495-6.838.9051-4.196 2.5843-10.653 5.8881-18.247 3.291-7.603 7.441-14.823 11.663-21.143 4.245-6.338 8.448-11.933 12.109-16.436 3.693-4.489 7.485-7.843 11.295-9.8371 3.798-1.9938 7.823-2.5464 11.382-1.0291 5.277 2.2682 10.164 2.9882 15.613 2.9652 5.444 0 11.225-.92 16.578-2.377 5.366-1.374 10.281-3.3515 14.465-3.0883 4.135.2116 7.572 3.3526 8.189 10.1033z"
