@@ -14,7 +14,7 @@ import UsersChart from '../Components/UsersChart.js'
 
 
 const mainBox = document.querySelector('body');
-mainBox.innerHTML += Header;
+// mainBox.innerHTML += Header;
 mainBox.innerHTML += Home;
 mainBox.innerHTML += Resources;
 mainBox.innerHTML += UsersChart;
@@ -24,8 +24,8 @@ mainBox.innerHTML += OurTeam;
 mainBox.innerHTML += TimeLine;
 mainBox.innerHTML += Comments;
 mainBox.innerHTML += ContactUs;
-mainBox.innerHTML += Blogs;
-mainBox.innerHTML += Footer;
+// mainBox.innerHTML += Blogs;
+// mainBox.innerHTML += Footer;
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
