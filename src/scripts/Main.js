@@ -24,8 +24,8 @@ mainBox.innerHTML += OurTeam;
 mainBox.innerHTML += TimeLine;
 mainBox.innerHTML += Comments;
 mainBox.innerHTML += ContactUs;
-// mainBox.innerHTML += Blogs;
-// mainBox.innerHTML += Footer;
+mainBox.innerHTML += Blogs;
+mainBox.innerHTML += Footer;
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
