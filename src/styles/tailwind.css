@@ -9,3 +9,6 @@
 #header_aside_ul li a:active , #header_aside_ul summary:active{
     background-color: rgb(96 165 250) !important;
 }
+#desktop_ul li a:active , #desktop_ul summary:active{
+    background-color: rgb(96 165 250) !important;
+}

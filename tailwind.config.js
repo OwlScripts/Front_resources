@@ -1,14 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./public/**/*.{html,js}"],
+    content: ["./public/**/*.{html,js}","./src/Components/*.js"],
     theme: {
       extend: {
         colors:{
           'blue-hover-dark' : '#1E2763'
         },
-        screens:{
-          'hm':'980px',
-        }
       },
     },
     daisyui: {
