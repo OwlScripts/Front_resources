@@ -5,6 +5,7 @@ import ContactUs from '../Components/ContactUs.js'
 import Features from '../Components/Features.js'
 import Footer from '../Components/Footer.js'
 import {Header,headerFunctions} from '../Components/Header.js'
+import TokenPart from '../Components/Token.js'
 import Home from '../Components/Home.js'
 import OurTeam from '../Components/OurTeam.js'
 import Resources from '../Components/Resources.js'
@@ -15,6 +16,7 @@ import UsersChart from '../Components/UsersChart.js'
 
 const mainBox = document.querySelector('body');
 mainBox.innerHTML += Header;
+mainBox.innerHTML += TokenPart
 mainBox.innerHTML += Home;
 mainBox.innerHTML += Resources;
 mainBox.innerHTML += UsersChart;
