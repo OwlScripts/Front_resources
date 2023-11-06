@@ -6,6 +6,10 @@ module.exports = {
         colors:{
           'blue-hover-dark' : '#1E2763'
         },
+        screens: {
+          'xs': '500px',
+          // => @media (min-width: 992px) { ... }
+        },
       },
     },
     daisyui: {
